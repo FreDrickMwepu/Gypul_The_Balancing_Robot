@@ -1,8 +1,19 @@
+
 # Building an Affordable Self-Balancing Robot for African Education 🤖
+
+<p align="center">
+	<img src="GypulResources/Photos/Self-Balancing Robots v01.png" alt="Gypul Robot Project" width="400"/>
+</p>
 
 ## The Vision
 
+
 I've been working on creating a self-balancing robotics platform specifically designed for education here in Zambia and across Africa. The goal is ambitious but necessary: build a custom PCB-based robot that costs under $80 instead of the $120-$700 that imported robotics kits typically run (excluding shipping and taxes that make them even more unaffordable).
+
+<p align="center">
+	<img src="GypulResources/Photos/IMG_7057.JPG" alt="Early Prototype" width="350"/>
+	<br><em>Early prototype of the self-balancing robot</em>
+</p>
 
 The platform would include:
 - ESP32 microcontroller for processing and wireless communication
@@ -23,7 +34,13 @@ Most robotics kits are either impossible to import affordably to our markets or 
 Here's where I get honest about my learning journey (and current challenges):
 
 **What's Working:**
+
 The prototype actually works! I managed to get a functional self-balancing robot using mostly recycled components from other projects, so I didn't blow through money I didn't have. The basic concept is sound, and seeing it balance (even briefly) was incredibly encouraging.
+
+<p align="center">
+	<img src="GypulResources/Photos/IMG_8337.JPG" alt="Robot Balancing" width="350"/>
+	<br><em>Robot balancing in action</em>
+</p>
 
 **What's Not Working:**
 - The DC gear motors I used are too small to properly support the robot's weight, so it struggles under load
@@ -34,6 +51,11 @@ The prototype actually works! I managed to get a functional self-balancing robot
 - The custom PCB is still just an idea in my head rather than an actual design layout
 - I need to optimize the 3D printed components for better structural integrity
 - The control algorithms need refinement
+
+<p align="center">
+	<img src="GypulResources/Photos/Self-Balancing Robots v04.png" alt="PCB and Design" width="350"/>
+	<br><em>PCB and mechanical design concepts</em>
+</p>
 
 ## My Learning Curve
 
@@ -101,7 +123,15 @@ Even if you can't directly contribute technical expertise, sharing this project,
 
 ## Final Thoughts
 
+
 Building this robot has been humbling, educational, and incredibly motivating. Every challenge reminds me why this work matters - because somewhere, a young person is waiting for the chance to build something amazing, and we have the opportunity to make that possible.
+
+<p align="center">
+	<a href="GypulResources/Videos/IMG_8343.MOV">
+		<img src="GypulResources/Photos/IMG_8338.JPG" alt="Watch Demo Video" width="350"/>
+	</a>
+	<br><em>Click image to watch a short demo video</em>
+</p>
 
 Thanks for taking the time to read this, and thanks in advance for any way you choose to support this journey. Together, we can turn this wobbly prototype into something that empowers the next generation of African innovators.
 
