@@ -2,7 +2,7 @@
 # Building an Affordable Self-Balancing Robot for African Education 🤖
 
 <p align="center">
-	<a href="https://github.com/FreDrickMwepu/Gypul_The_Balancing_Robot/stargazers"><img src="https://img.shields.io/github/stars/FreDrickMwepu/Gypul_The_Balancing_Robot?style=flat&logo=github" alt="GitHub Stars"></a>
+	<a rhref="https://github.com/FreDrickMwepu/Gypul_The_Balancing_Robot/stargazers"><img src="https://img.shields.io/github/stars/FreDrickMwepu/Gypul_The_Balancing_Robot?style=flat&logo=github" alt="GitHub Stars"></a>
 	<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
 	<img src="https://img.shields.io/badge/status-in%20progress-orange" alt="Project Status: In Progress">
 	<a href="mailto:fredrickmwepu22@gmail.com"><img src="https://img.shields.io/badge/contact-email-success" alt="Contact Email"></a>
