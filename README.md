@@ -174,8 +174,6 @@ Building this robot has been humbling, educational, and incredibly motivating. E
 	<br><em>Click image to watch a short demo video</em>
 </p>
 
-<p align="center"><sub>Note: Some browsers may not preview .MOV inline on GitHub. If playback doesn't start, use “Download” or open in a new tab.</sub></p>
-
 Thanks for taking the time to read this, and thanks in advance for any way you choose to support this journey. Together, we can turn this wobbly prototype into something that empowers the next generation of African innovators.
 
 ---
