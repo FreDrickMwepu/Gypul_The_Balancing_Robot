@@ -1,0 +1,20 @@
+### Missing 3D models - created on 2025-11-29 01:43
+### Printed by checking_3D_models plugin
+Board file: /Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/Untitled.kicad_pcb
+3D missing models written to:
+/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/Untitled_missing3Dmodels.txt
+-------
+('F1', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/0ZCH0110AF2E.stp')
+('LED3', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('C9', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/T491A106K010AT7280.stp')
+('LED6', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('LED5', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('PWD', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('C4', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/T491A106K010AT7280.stp')
+('LED2', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('C12', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/T491A106K010AT7280.stp')
+('LED1', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/LTST-C170KRKT.stp')
+('C7', '/Users/macbookpro/Desktop/KiCadNineTutorial/Untitled/T491A106K010AT7280.stp')
+-------
+NUM of 3D missing models:11
+checked extensions ['.stp', '.step', '.stpZ']

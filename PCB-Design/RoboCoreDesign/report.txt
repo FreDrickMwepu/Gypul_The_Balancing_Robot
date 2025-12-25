@@ -1,0 +1,94 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C3:FootprintsESP:T491A'.
+Info: Processing symbol 'C4:FootprintsESP:T491A'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C7:FootprintsESP:T491A'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C9:FootprintsESP:T491A'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C12:FootprintsESP:T491A'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'F1:FootprintsESP:FUSC3226X100N'.
+Info: Processing symbol 'J1:FootprintsESP:BELFUSE_SS-52400-002'.
+Info: Processing symbol 'J2:FootprintsESP:JST_B2B-PH-SM4-TB'.
+Info: Processing symbol 'J3:FootprintsESP:AMPHENOL_GSD090012SEU'.
+Info: Processing symbol 'J4:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical'.
+Info: Processing symbol 'LED1:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'LED2:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'LED3:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'LED4:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'LED5:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'LED6:FootprintsESP:LEDC2012X120N'.
+Info: Processing symbol 'MK1:FootprintsESP:CUI_CMC-5042PF-AC'.
+Info: Processing symbol 'Q1:FootprintsESP:TRANS_TEMT6000X01'.
+Info: Processing symbol 'Q2:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'Q3:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R33:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'R34:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'S1:FootprintsESP:SW_USLPT2819DT2TR'.
+Info: Processing symbol 'S2:FootprintsESP:SW_USLPT2819DT2TR'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP2:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP3:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP4:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'TP5:TestPoint:TestPoint_Pad_D1.0mm'.
+Info: Processing symbol 'U1:FootprintsESP:MODULE_ESP32-C3-WROOM-02-H4'.
+Info: Processing symbol 'U2:Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm'.
+Info: Processing symbol 'U3:FootprintsESP:PSON65P250X250X100-8N'.
+Info: Processing symbol 'U4:FootprintsESP:QFN50P400X400X100-21N'.
+Info: Processing symbol 'U5:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'U6:FootprintsESP:SOIC127P790X216-8N'.
+Info: Processing symbol 'U7:FootprintsESP:SOT65P210X110-5N'.
+Info: Processing symbol 'VR1:FootprintsESP:VREG_LM1117MPX-3.3'.
+Info: Total warnings: 3, errors: 0.
+
+
+Warning: No net found for component J2 pad S1 (no pin S1 in symbol).
+Warning: No net found for component J2 pad S2 (no pin S2 in symbol).
+Warning: No net found for component Q1 pad 2 (no pin 2 in symbol).
+
+
+Info: Total warnings: 3, errors: 0.

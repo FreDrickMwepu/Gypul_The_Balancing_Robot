@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB-C Connector")(type "KiCad")(uri "/Users/macbookpro/Plastal-Bot_Projects/Gypul_The_Balancing_Robot/PCB-Design/Libraries/Symbols/SS-52400-002.kicad_sym")(options "")(descr ""))
+)
