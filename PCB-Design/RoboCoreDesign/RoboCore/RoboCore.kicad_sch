@@ -4068,12 +4068,6 @@
 		(uuid "be13a1c6-eb87-4d5c-8d05-dc6a3b62fcab")
 	)
 	(junction
-		(at 60.96 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa89dc66-725a-4299-9c58-3ec12baaffd0")
-	)
-	(junction
 		(at 86.36 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4246,16 +4240,6 @@
 			(type default)
 		)
 		(uuid "1ab967d3-34ab-4273-aa41-1b63dca4d8db")
-	)
-	(wire
-		(pts
-			(xy 60.96 175.26) (xy 68.58 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be468be-15ab-4eb0-a550-1e927a65e751")
 	)
 	(wire
 		(pts
@@ -4669,6 +4653,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 175.26) (xy 68.58 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724a294d-4cef-4a9e-8847-77fc590ba370")
+	)
+	(wire
+		(pts
 			(xy 62.23 156.21) (xy 58.42 156.21)
 		)
 		(stroke
@@ -5069,16 +5063,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 186.69) (xy 60.96 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f652d8-ae4c-400c-8e20-9887c498c649")
-	)
-	(wire
-		(pts
 			(xy 36.83 43.18) (xy 33.02 43.18)
 		)
 		(stroke
@@ -5096,16 +5080,6 @@
 			(type default)
 		)
 		(uuid "cc3176c7-f609-43ab-9abf-99210b6d3415")
-	)
-	(wire
-		(pts
-			(xy 60.96 175.26) (xy 60.96 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfee101-6550-4440-a2e2-3970ea07ca7a")
 	)
 	(wire
 		(pts
@@ -5176,16 +5150,6 @@
 			(type default)
 		)
 		(uuid "ddcce5d4-3f05-4e31-bd74-d8e4fd44d7ad")
-	)
-	(wire
-		(pts
-			(xy 48.26 175.26) (xy 60.96 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0598eff-2c59-4756-a6af-3a6d848f43db")
 	)
 	(wire
 		(pts
@@ -7281,72 +7245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7db54d0f-da45-4245-815d-fa2da681e471")
-		(property "Reference" "#PWR09"
-			(at 60.96 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0651433-c2b0-41a4-aa17-fed244b0d70c")
-		)
-		(instances
-			(project "RoboCore"
-				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 86.36 64.77 0)
 		(unit 1)
@@ -9425,95 +9323,6 @@
 			(project ""
 				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 60.96 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efd8433b-0cd8-4a9c-b101-49256583a129")
-		(property "Reference" "C3"
-			(at 64.77 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uf"
-			(at 64.77 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 60.96 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 62.23 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 61.595 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9697944b-1e8c-43d9-8855-37d0e600e215")
-		)
-		(pin "2"
-			(uuid "4461c582-3bbc-4894-8f16-4ad3d0332224")
-		)
-		(instances
-			(project "RoboCore"
-				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3"
-					(reference "C3")
 					(unit 1)
 				)
 			)
