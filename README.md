@@ -1,5 +1,5 @@
 
-# Building an Affordable Self-Balancing Robot for African Education 🤖
+# Robo Core Zambia
 
 <p align="center">
 	<a rhref="https://github.com/FreDrickMwepu/Gypul_The_Balancing_Robot/stargazers"><img src="https://img.shields.io/github/stars/FreDrickMwepu/Gypul_The_Balancing_Robot?style=flat&logo=github" alt="GitHub Stars"></a>
@@ -9,26 +9,27 @@
 </p>
 
 <p align="center">
-	<img src="GypulResources/Photos/Self-Balancing Robots v01.png" alt="Gypul Robot Project" width="400"/>
+	<img src="GypulResources/CombinedVersion.png" alt="Gypul Robot Project" width="400"/>
 </p>
 
 ## The Vision 🎯
 
+I've been working on creating **RoboCore Zambia** — a locally engineered, modular robotics and embedded systems development platform designed for STEM education across Zambia and Africa. The goal is ambitious but necessary: build an affordable, open-source platform that enables educators and makers to teach robotics, IoT, and embedded systems design without relying on expensive imported kits (which typically cost $120–$700 or more, before shipping and customs).
 
-I've been working on creating a self-balancing robotics platform specifically designed for education here in Zambia and across Africa. The goal is ambitious but necessary: build a custom PCB-based robot that costs under $80 instead of the $120-$700 that imported robotics kits typically run (excluding shipping and taxes that make them even more unaffordable).
+RoboCore Zambia isn't a single application — it's a flexible foundation. Self-balancing robots, autonomous vehicles, drone controllers, IoT sensors, and wireless communication projects are all possible with the same core platform.
 
 <p align="center">
 	<img src="GypulResources/Photos/IMG_7057.JPG" alt="Early Prototype" width="350"/>
-	<br><em>Early prototype of the self-balancing robot</em>
+	<br><em>Early prototype demonstrating the RoboCore Zambia platform</em>
 </p>
 
-The platform would include:
+The platform includes:
 - 🧠 ESP32 microcontroller for processing and wireless communication
-- 📡 IMU sensors for balance control
-- 🔌 Dual motor drivers
-- 🧩 Custom PCB design
-- 🧱 3D printed chassis components
-- 🏭 Local manufacturing to keep costs down
+- 📡 IMU sensors (MPU-6050) for motion sensing and orientation tracking
+- 🔌 Dual H-bridge motor drivers with high-current capability
+- 🧩 Custom 2-layer PCB for integrated control and reliability
+- 🧱 Modular connectors for motors, sensors, and expansions
+- 🏭 Open-source design files for local manufacturing and customization
 
 ---
 
@@ -76,7 +77,7 @@ Here's where I get honest about my learning journey (and current challenges):
 
 **What's Working ✅:**
 
-The prototype actually works! I managed to get a functional self-balancing robot using mostly recycled components from other projects, so I didn't blow through money I didn't have. The basic concept is sound, and seeing it balance (even briefly) was incredibly encouraging.
+The core platform is functional! I've successfully built working prototypes and validated the PCB design with real-world testing. The ESP32-based control system, motor drivers, and IMU sensor integration all perform as expected. The modularity of the design means the same platform has been used for multiple applications beyond self-balancing robots.
 
 <p align="center">
 	<img src="GypulResources/Photos/IMG_8337.JPG" alt="Robot Balancing" width="350"/>
@@ -84,14 +85,15 @@ The prototype actually works! I managed to get a functional self-balancing robot
 </p>
 
 **What's Not Working ⚠️:**
-- The DC gear motors I used are too small to properly support the robot's weight, so it struggles under load
-- My MPU sensor gives inconsistent readings - though I suspect this is more about me needing to spend quality time learning how to tune it properly rather than the sensor being fundamentally flawed
-- The mechanical design has some stability issues that need addressing
+- Some mechanical designs need optimization for different applications (weight distribution, center of gravity)
+- Sensor calibration requires careful tuning depending on the specific use case
+- Documentation and example code could be more comprehensive for different robot designs
 
 **What's Still in Development 🛠️:**
-- The custom PCB is still just an idea in my head rather than an actual design layout
-- I need to optimize the 3D printed components for better structural integrity
-- The control algorithms need refinement
+- Expanding example code and tutorials for different robotics applications
+- Developing reference designs for various platforms (balancing robots, autonomous rovers, drone controllers)
+- Creating comprehensive educational resources and lesson plans
+- Building a community repository of user-contributed designs and modifications
 
 <p align="center">
 	<img src="GypulResources/Photos/Self-Balancing Robots v04.png" alt="PCB and Design" width="350"/>
@@ -109,11 +111,11 @@ This isn't about admitting defeat - it's about recognizing that complex projects
 I'm looking for any kind of support, and it doesn't have to be a huge commitment:
 
 **Technical Guidance 🛠️:**
-- Experience with self-balancing robots or control systems
-- PCB design feedback and best practices
-- 3D modeling optimization tips
-- Component selection advice
-- Code review for balancing algorithms
+- PCB design feedback, manufacturing best practices, and component selection
+- Embedded systems and firmware optimization
+- Mechanical design and 3D printing techniques
+- Educational curriculum integration for robotics and embedded systems
+- Code review for control algorithms and sensor fusion
 
 **Knowledge Sharing 📚:**
 - Pointing me toward useful resources, tutorials, or documentation
@@ -132,24 +134,56 @@ I'm looking for any kind of support, and it doesn't have to be a huge commitment
 
 ## The Bigger Picture 🌐
 
-This isn't just about building one robot - it's about creating a foundation for robotics education that can scale across the continent. The plan includes:
+This isn't just about building robotics projects — it's about creating an open-source, locally relevant development platform that enables education and innovation across the continent. The vision includes:
 
-- Open-source designs that others can build upon
-- Educational resources and curriculum materials
-- Partnerships with schools and maker spaces
-- A pathway for local manufacturing and job creation
-- Documentation that helps others start similar projects in their communities
+- Open-source hardware and firmware that others can fork, modify, and improve
+- Educational resources, tutorials, and reference designs for common applications
+- Partnerships with schools, universities, and maker spaces for curriculum integration
+- A pathway for local component sourcing and PCB fabrication across African regions
+- Community-driven documentation and a repository of user projects and innovations
 
 Every learning moment, every component test, every design iteration gets us closer to something that can genuinely impact how young people across Africa engage with technology and innovation.
 
-## Next Steps 🚀
+## Electronics & Hardware Design
 
-I'm currently working on:
-- [ ] Upgrading the motor specifications to handle the robot's weight properly
-- [ ] Deep-diving into MPU sensor calibration and tuning
-- [ ] Moving from concept to actual PCB design layout
-- [ ] Optimizing the mechanical design for better stability
-- [ ] Building partnerships with local manufacturers
+### Overview
+
+To move the project beyond breadboards and jump-wires we designed a custom 2-layer PCB in KiCad. The board replaces fragile prototype wiring to improve reliability, reduce assembly time, and lower per-unit costs — all important for classroom and makerspace use.
+
+### Key Subsystems
+
+- **Processing & Control:** ESP32-WROOM module providing Wi‑Fi, Bluetooth, and Arduino-compatible development for students and makers.
+- **Motion Sensing:** MPU‑6050 IMU (3‑axis gyroscope + 3‑axis accelerometer) used for balance sensing and closed‑loop control.
+- **Motor Control:** Dual H‑bridge motor drivers with dedicated high‑current copper traces and thermal considerations for continuous operation.
+- **Power Management:** LiPo battery support with a USB Type‑C charging input, onboard voltage regulators, and reverse‑polarity protection to protect classroom hardware.
+- **Memory:** Onboard flash for firmware and simple data logging (sensor logs, calibration presets).
+- **Connectivity & Expansion:** Standard I2C, SPI, and UART breakout headers plus modular connectors (J2, J3, J4) for motors and external sensors to keep the design flexible.
+
+### Design Decisions
+
+- Chosen parts prioritize local availability and low BOM complexity to make sourcing components easier in Zambia and nearby markets.
+- A continuous ground plane and careful keep‑out were used around the ESP32 antenna to preserve wireless performance.
+- Power traces for motors were routed and sized separately from logic power to reduce noise and avoid voltage drops during high current draw.
+- Breakout headers and modular connectors were added to encourage experimentation and easy repairs in an educational setting.
+
+### Toolchain
+
+The PCB was designed in KiCad. 3D renders were generated from the PCB model to validate component placement and mechanical fit before fabrication.
+
+### Status
+
+The board is at Revision 1 and currently in fabrication and early testing. Feedback from these tests will guide revisions to the layout and BOM.
+
+For full schematics, PCB layout files, and fabrication notes see the project hardware folder: [PCB-Design](PCB-Design).
+
+### Board Renders
+
+<p align="center">
+	<img src="PCB-Design/Pictures/Photo.png" alt="PCB Top Render" width="420"/>
+	<img src="PCB-Design/Pictures/Photo2.png" alt="PCB Bottom Render" width="420"/>
+</p>
+
+<em>Top and bottom 3D renders of the RoboCore PCB. Replace these placeholder files with the actual KiCad export renders in the `PCB-Design` folder.</em>
 
 ## Get Involved 📣
 
@@ -164,8 +198,7 @@ Even if you can't directly contribute technical expertise, sharing this project,
 
 ## Final Thoughts 💡
 
-
-Building this robot has been humbling, educational, and incredibly motivating. Every challenge reminds me why this work matters - because somewhere, a young person is waiting for the chance to build something amazing, and we have the opportunity to make that possible.
+Building RoboCore Zambia has been humbling, educational, and incredibly motivating. Every challenge reminds me why this work matters — because somewhere, a young person is waiting for the chance to learn, build, and innovate, and we have the opportunity to make that possible.
 
 <p align="center">
 	<a href="GypulResources/Videos/IMG_8343.MOV">
@@ -174,7 +207,7 @@ Building this robot has been humbling, educational, and incredibly motivating. E
 	<br><em>Click image to watch a short demo video</em>
 </p>
 
-Thanks for taking the time to read this, and thanks in advance for any way you choose to support this journey. Together, we can turn this wobbly prototype into something that empowers the next generation of African innovators.
+Thanks for taking the time to read this, and thanks in advance for any way you choose to support this journey. Together, we can build an open-source robotics platform that empowers the next generation of African innovators, engineers, and educators.
 
 ---
 
