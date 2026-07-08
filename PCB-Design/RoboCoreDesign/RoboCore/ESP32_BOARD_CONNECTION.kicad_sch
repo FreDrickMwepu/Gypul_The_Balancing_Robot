@@ -4247,10 +4247,6 @@
 		(uuid "4d890026-b9ae-4bcd-b246-c4d4bc922166")
 	)
 	(no_connect
-		(at 73.66 142.24)
-		(uuid "5b4a8e0d-9fbe-44c8-a48f-09ea15ebd054")
-	)
-	(no_connect
 		(at 217.17 77.47)
 		(uuid "7028592b-caef-4c82-a4a6-cc14517cddfa")
 	)
@@ -5772,7 +5768,7 @@
 		)
 		(uuid "a2339044-4b88-4843-a521-6cf085caa850")
 	)
-	(label "I2C_SDA"
+	(label "I2C_SCL"
 		(at 66.04 50.8 0)
 		(effects
 			(font
@@ -6289,9 +6285,9 @@
 		(at 73.66 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1439081c-c74d-4294-805c-147d090de59d")
 		(property "Reference" "R16"
 			(at 67.818 40.894 90)
@@ -8988,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "2.2nf"
 			(at 27.686 143.51 0)
 			(effects
 				(font
@@ -10060,4 +10056,270 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 73.66 142.24) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0527ca43-8137-4420-ab80-7567e29addf9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b3d55f-cf4f-49f0-9ee3-c0e453625524")
+		(property "Reference" "#PWR0101"
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df209f50-ddda-4a64-ad2b-a5d9669bd5ac")
+		)
+		(instances
+			(project "RoboCore"
+				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3/13ffb710-1363-4d93-be18-8b4e38f0ad43"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb38254-a91c-4b63-b0e5-6207fc6f1cf1")
+	)
+
+	(label "SPI_MISO"
+		(at 66.04 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "474223db-1c6a-4062-a508-7d5020df44a8")
+	)
+
+	(wire
+		(pts
+			(xy 25.4 82.55) (xy 25.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40b58f7-3863-42f6-a541-d82d909d811d")
+	)
+	(wire
+		(pts
+			(xy 25.4 95.25) (xy 25.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c4ae36-5031-4a25-ab87-777fe58357b0")
+	)
+	(label "DIR_A"
+		(at 25.4 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97dfa6e4-1851-41ff-a423-4a35441cbb65")
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:R")
+		(at 25.4 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0037c714-60fd-4617-bcbb-c1bd0c4b68c3")
+		(property "Reference" "R33"
+			(at 27.939999999999998 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.939999999999998 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Boot-strap pull-up: GPIO2/DIR_A must read high at reset (DRV824x input pull-down)"
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdd93025-2b45-4380-a298-1efe3d5b460a")
+		)
+		(pin "2"
+			(uuid "d48712ce-24e9-4aaa-96e0-b680613943f9")
+		)
+		(instances
+			(project "RoboCore"
+				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3/13ffb710-1363-4d93-be18-8b4e38f0ad43"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e480ab-5fc1-45a4-878c-9e4f4992f7d7")
+		(property "Reference" "#PWR0103"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7073310e-9491-48b3-bbe9-8e9ee1a61e9e")
+		)
+		(instances
+			(project "RoboCore"
+				(path "/4fad5ee2-8ab9-4697-9a8f-c6efe4c71bb3/13ffb710-1363-4d93-be18-8b4e38f0ad43"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )

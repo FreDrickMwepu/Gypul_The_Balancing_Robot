@@ -142,10 +142,10 @@
         "min_silk_clearance": 0.05,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -533,7 +533,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.2,
         "name": "+BATT",
@@ -572,7 +572,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.6,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "MOTOR_OUT",
@@ -585,7 +585,7 @@
         "via_drill": 1.0
       },
       {
-        "clearance": 0.6,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "MOTOR_PWR",
@@ -598,7 +598,7 @@
         "via_drill": 0.8
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "POWER_3V3",
@@ -611,7 +611,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "POWER_5V",
@@ -676,7 +676,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.6,
+        "clearance": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.15,
         "name": "VM",
@@ -700,164 +700,72 @@
         "pattern": "+BATT"
       },
       {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "MOTOR_PWR_PLANE"
+        "netclass": "MOTOR_OUT",
+        "pattern": "*/AO1"
       },
       {
         "netclass": "MOTOR_OUT",
-        "pattern": "M1_A"
+        "pattern": "*/AO2"
       },
       {
         "netclass": "MOTOR_OUT",
-        "pattern": "M1_B"
+        "pattern": "*/BO1"
       },
       {
         "netclass": "MOTOR_OUT",
-        "pattern": "M2_A"
-      },
-      {
-        "netclass": "MOTOR_OUT",
-        "pattern": "M2_B"
-      },
-      {
-        "netclass": "MOTOR_OUT",
-        "pattern": "MOTOR_CONN1"
-      },
-      {
-        "netclass": "MOTOR_OUT",
-        "pattern": "MOTOR_CONN2"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM_BULK"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM_TVS"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "DRV8245_OUT1_1"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "DRV8245_OUT1_2"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "DRV8245_OUT2_1"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "DRV8245_OUT2_2"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM_CAP_0p1"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM_CAP_BULK"
+        "pattern": "*/BO2"
       },
       {
         "netclass": "POWER_3V3",
-        "pattern": "VREGIN"
+        "pattern": "+3.3V"
       },
       {
         "netclass": "POWER_5V",
-        "pattern": "VOUT_REG"
+        "pattern": "+5V"
       },
       {
         "netclass": "POWER_5V",
-        "pattern": "5V_BUS"
-      },
-      {
-        "netclass": "POWER_3V3",
-        "pattern": "3V3"
-      },
-      {
-        "netclass": "POWER_3V3",
-        "pattern": "3V3_LOCAL"
+        "pattern": "/VBUS"
       },
       {
         "netclass": "POWER_5V",
-        "pattern": "USB_VBUS"
-      },
-      {
-        "netclass": "POWER_5V",
-        "pattern": "USB_VBUS_FILT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "ANALOG_ADC",
-        "pattern": "AGND"
-      },
-      {
-        "netclass": "THERMAL_VIA",
-        "pattern": "EP_THERM"
-      },
-      {
-        "netclass": "POWER_3V3",
-        "pattern": "ESP32_3V3_IN"
-      },
-      {
-        "netclass": "POWER_5V",
-        "pattern": "CP2102N_VBUS"
+        "pattern": "/+5V_USB"
       },
       {
         "netclass": "USB_DP_DN",
-        "pattern": "USB_D_PLUS"
+        "pattern": "/USB_DP"
       },
       {
         "netclass": "USB_DP_DN",
-        "pattern": "USB_D_MINUS"
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "USB_DP_DN",
+        "pattern": "*/USB_D+"
+      },
+      {
+        "netclass": "USB_DP_DN",
+        "pattern": "*/USB_D-"
       },
       {
         "netclass": "UART_I2C",
-        "pattern": "CP2102N_TX"
+        "pattern": "*/I2C_SDA"
       },
       {
         "netclass": "UART_I2C",
-        "pattern": "CP2102N_RX"
+        "pattern": "*/I2C_SCL"
       },
       {
         "netclass": "UART_I2C",
-        "pattern": "ESP32_RXD"
+        "pattern": "*/RX_TX"
       },
       {
         "netclass": "UART_I2C",
-        "pattern": "ESP32_TXD"
+        "pattern": "*/TX_RX"
       },
       {
-        "netclass": "UART_I2C",
-        "pattern": "I2C_SDA"
-      },
-      {
-        "netclass": "UART_I2C",
-        "pattern": "I2C_SCL"
-      },
-      {
-        "netclass": "POWER_3V3",
-        "pattern": "MCP73871_VBAT"
-      },
-      {
-        "netclass": "POWER_3V3",
-        "pattern": "MCP73871_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MPU6050_VCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "HIGH_SPEED_SPI",
+        "pattern": "*/SPI_*"
       }
     ]
   },

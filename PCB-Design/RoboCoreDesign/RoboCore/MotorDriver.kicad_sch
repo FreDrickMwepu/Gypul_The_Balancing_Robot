@@ -361,7 +361,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "DRV8245SQRXZRQ1"
+			(property "Value" "DRV8245HQRXZRQ1"
 				(at 29.21 5.08 0)
 				(effects
 					(font
@@ -419,7 +419,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DRV8245SQRXZRQ1"
+			(property "Manufacturer_Part_Number" "DRV8245HQRXZRQ1"
 				(at 29.21 -594.92 0)
 				(effects
 					(font
@@ -429,7 +429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-DRV8245SQRXZRQ1"
+			(property "Mouser Part Number" "595-DRV8245HQRXZRQ1"
 				(at 29.21 -694.92 0)
 				(effects
 					(font
@@ -439,7 +439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245SQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245HQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
 				(at 29.21 -794.92 0)
 				(effects
 					(font
@@ -449,7 +449,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "DRV8245SQRXZRQ1"
+			(property "Arrow Part Number" "DRV8245HQRXZRQ1"
 				(at 29.21 -894.92 0)
 				(effects
 					(font
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8245SQRXZRQ1"
+		(property "Value" "DRV8245HQRXZRQ1"
 			(at 114.3 133.35 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DRV8245SQRXZRQ1"
+		(property "Manufacturer_Part_Number" "DRV8245HQRXZRQ1"
 			(at 127 733.35 0)
 			(effects
 				(font
@@ -4120,7 +4120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-DRV8245SQRXZRQ1"
+		(property "Mouser Part Number" "595-DRV8245HQRXZRQ1"
 			(at 127 833.35 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245SQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245HQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
 			(at 127 933.35 0)
 			(effects
 				(font
@@ -4140,7 +4140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "DRV8245SQRXZRQ1"
+		(property "Arrow Part Number" "DRV8245HQRXZRQ1"
 			(at 127 1033.35 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8245SQRXZRQ1"
+		(property "Value" "DRV8245HQRXZRQ1"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DRV8245SQRXZRQ1"
+		(property "Manufacturer_Part_Number" "DRV8245HQRXZRQ1"
 			(at 133.35 650.8 0)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-DRV8245SQRXZRQ1"
+		(property "Mouser Part Number" "595-DRV8245HQRXZRQ1"
 			(at 133.35 750.8 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245SQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8245HQRXZRQ1?qs=IPgv5n7u5QZV%2FxBh4uiovQ%3D%3D"
 			(at 133.35 850.8 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "DRV8245SQRXZRQ1"
+		(property "Arrow Part Number" "DRV8245HQRXZRQ1"
 			(at 133.35 950.8 0)
 			(effects
 				(font
